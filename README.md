@@ -22,14 +22,25 @@ Static output is written to `docs/.vitepress/dist`.
 
 ## Deploy (GitHub Pages)
 
-The live site is published at **[https://iri-ucla.github.io/](https://iri-ucla.github.io/)** from the [`IRI-UCLA.github.io`](https://github.com/IRI-UCLA/IRI-UCLA.github.io) repository.
+The live site is **[https://iri-ucla.github.io/](https://iri-ucla.github.io/)**, built from [`IRI-UCLA.github.io`](https://github.com/IRI-UCLA/IRI-UCLA.github.io) only.
 
-Pushing to `main` runs `.github/workflows/deploy-pages.yml` and updates the site automatically (usually within 1–2 minutes).
+This repo (`CL-BH3440`) is for editing. After you commit here, sync to the Pages repo:
 
-To enable Pages the first time (org admins):
+```bash
+git push pages main
+```
 
-1. Open **Settings → Pages** on `IRI-UCLA/IRI-UCLA.github.io`
-2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+That triggers the deploy workflow on `IRI-UCLA.github.io` (usually live within 1–2 minutes).
+
+## What's in this repo
+
+Only the VitePress guidebook:
+
+- `docs/` — Markdown pages
+- `docs/.vitepress/` — site config and theme
+- `package.json` — build tooling (not deployed; GitHub Actions runs `npm ci && npm run build`)
+
+`node_modules/`, `docs/.vitepress/cache/`, and `docs/.vitepress/dist/` stay local (gitignored).
 
 ## Adding content
 
