@@ -9,8 +9,11 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
-    siteTitle: 'CL @ BH 3440',
-    logo: undefined,
+    siteTitle: false,
+    logo: {
+      src: '/connection-lab-logo.png',
+      alt: 'Connection Lab',
+    },
     nav: [
       { text: 'Guidebook', link: '/guide/' },
     ],

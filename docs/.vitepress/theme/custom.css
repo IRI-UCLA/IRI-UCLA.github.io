@@ -7,6 +7,29 @@
   --vp-c-brand-1: #3b82f6;
   --vp-c-brand-2: #2563eb;
   --vp-c-brand-3: #1d4ed8;
+  --cl-logo-height: 36px;
+}
+
+/* Top-left brand logo (1000×296 source) */
+.VPNavBarTitle .logo,
+.VPNavBarTitle a.title {
+  display: flex;
+  align-items: center;
+}
+
+.VPNavBarTitle .logo img {
+  height: var(--cl-logo-height);
+  width: auto;
+  max-width: min(220px, 42vw);
+  object-fit: contain;
+  object-position: left center;
+}
+
+.VPSidebar .logo img {
+  height: calc(var(--cl-logo-height) - 4px);
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
 }
 
 /* Slightly wider readable column */
