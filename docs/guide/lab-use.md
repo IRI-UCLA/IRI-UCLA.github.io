@@ -8,7 +8,7 @@ Full document: **[Connection Lab Members Agreement 2026–2027](/connection-lab-
 
 Brief outline:
 
-1. **Purpose** — Expectations for all Connection Lab members (including IRI and affiliated researchers). Signing confirms commitment to a collaborative, respectful research environment.
+1. **Purpose** — Expectations for all Connection Lab members. Signing confirms commitment to a collaborative, respectful research environment.
 
 2. **Quiet hours (weekdays, 9 AM–6 PM)**
    - Keep conversation volume low; use whiteboards for active collaboration.
@@ -24,9 +24,4 @@ Brief outline:
    - Dispose of food waste in the bin **outside** the lab entrance; keep lab bins clear.
    - Clean table surfaces after meals; if you use the sink, leave it clean.
 
-5. **Events & student clubs**
-   - Clubs may reserve the lab **Thursday–Sunday after 6 PM** only.
-   - Clean up fully after use and restore furniture/equipment.
-   - Misuse or repeated violations can revoke club access.
-
-6. **Acknowledgment** — By entering with your Bruin Card or keypad code, you agree to follow this code of conduct.
+5. **Acknowledgment** — By entering with your Bruin Card or keypad code, you agree to follow this code of conduct.
