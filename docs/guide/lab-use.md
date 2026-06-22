@@ -30,7 +30,3 @@ Brief outline:
    - Misuse or repeated violations can revoke club access.
 
 6. **Acknowledgment** — By entering with your Bruin Card or keypad code, you agree to follow this code of conduct.
-
-::: tip
-Edit this page in `docs/guide/lab-use.md`. The PDF lives in `docs/public/connection-lab-members-agreement-2026-2027.pdf`.
-:::
